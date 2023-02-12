@@ -18,6 +18,18 @@ To get started with Kubanex, simply sign up for an account. Once you have create
 
 We welcome contributions to Kubanex! If you have an idea for a new feature or have found a bug, please submit an issue on our GitHub repository. If you would like to contribute code, please fork the repository and submit a pull request.
 
+Current Branching strategy:
+
+Master Branch: This is the main branch that contains the stable version of the codebase. Releases should be made from this branch.
+
+Release Branches: These are branches that are created from the development branch when you want to prepare a release. They are used to stabilize the code before it is merged into the master branch.
+
+Development Branch: This is the branch where all new features and bug fixes are developed. It is usually created from the master branch and is used to integrate the work of multiple developers.
+
+Feature Branches: These are branches that are created from the development branch to work on a specific feature. They should be short-lived, meaning they should be deleted once the feature is completed and merged into the development branch.
+
+Hotfix Branches: These are branches that are created from the master branch when you need to fix a critical bug in the stable codebase. They should be merged back into the master and development branches once the bug is fixed.
+
 ## License
 
 Kubanex is licensed under the BSD 3 License.
