@@ -1,0 +1,121 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+header nav a:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.category-button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.category-button:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  /* box-shadow: 0 0 10px #ccc; */
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Post styles */
+
+.post {
+  background-color: rgb(243, 243, 243);
+  box-shadow: 0 0 10px #ccc;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: left;
+}
+
+.post .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post .username {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.post .content {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.post .timestamp {
+  font-size: 14px;
+  color: gray;
+  text-align: right;
+}
