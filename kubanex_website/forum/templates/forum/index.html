@@ -1,35 +1,15 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kubanex</title>
-  <link rel="stylesheet" type="text/css" href="{% static 'forum/style.css' %}">
-</head>
-<body>
-  <header>
-    <h1>Kubanex</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sign Up</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  
+{% extends "forum/base.html" %}
+{% block content %}
   <div class="categories">
     <button class="category-button">Academics</button>
     <button class="category-button">Extracurriculars</button>
     <button class="category-button">Career</button>
   </div>
-  
+
   <main style="margin-top: 50px;">
     <h2>Welcome to Kubanex</h2>
     <p>Kubanex is an online forum designed specifically for students. It provides a platform for students to collaborate, share knowledge, and discuss various topics related to their studies.</p>
-  
+
     <div class="post">
       <p class="title">Post I</p>
       <p class="username">Anonymous1998</p>
@@ -49,9 +29,8 @@
     </div>
 
   </main>
-  
+
   <footer>
     <p>&copy; Kubanex 2023</p>
   </footer>
-</body>
-</html>
+{% endblock content %}
