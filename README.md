@@ -20,7 +20,7 @@ We welcome contributions to Kubanex! If you have an idea for a new feature or ha
 
 To setup environment you have to clone this repository, and install requirement from `requirements.txt` like
 
-```$ pip intall -r requirements.txt```
+```$ pip install -r requirements.txt```
 
 ### Branching Strategy
 
