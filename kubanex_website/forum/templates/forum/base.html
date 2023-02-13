@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kubanex</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'forum/style.css' %}">
+</head>
+<body>
+  <header>
+    <h1>Kubanex</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sign Up</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+{% block content %}
+{% endblock content %}
+</body>
