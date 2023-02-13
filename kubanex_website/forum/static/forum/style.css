@@ -62,7 +62,7 @@ header nav a:hover {
 main {
   background-color: white;
   padding: 20px;
-  box-shadow: 0 0 10px #ccc;
+  /* box-shadow: 0 0 10px #ccc; */
   margin: 0 auto;
   max-width: 800px;
   text-align: center;
@@ -84,4 +84,38 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+/* Post styles */
+
+.post {
+  background-color: white;
+  /* box-shadow: 0 0 10px #ccc; */
+  margin: 20px 0;
+  padding: 20px;
+  text-align: left;
+}
+
+.post .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post .username {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.post .content {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.post .timestamp {
+  font-size: 14px;
+  color: gray;
+  text-align: right;
 }
